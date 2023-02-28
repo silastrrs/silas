@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.comentario{
+  color: aquamarine;
+  align-items: center;
+  justify-content: center;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tudo{
+  padding: 40px 0 30px;
+  flex-wrap: wrap;
+}
+
+header{
+  text-align: end;
+  align-items: center;
+}
+
+a{
+  color: aquamarine;
+  margin-right: 2em;
+  border: 2px solid;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+fieldset{
+  position: absolute;
+  margin-left: 150px;
+  border: 2px solid aquamarine;
+  margin-right: 150px;
+}
+a:hover{
+  background-color: blue;
+}
+
+.about{
+  color: blue;
+}
+
+h5 {
+  color: aquamarine;
+  font-size: 20px;
+}
+
+.Comentario{
+  color:aquamarine ;
+}
+.my-name{
+  
+  margin: 200px;
+  
+}
+.me{
+  margin: 80px;
+  margin-left: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer{
+  display: flex;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card{
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px rgba(50, 50, 50, 0.22);
+  padding: 20px;
+  margin: 20px;
+  width: 150px;
+  transition: all 0.3s ease-out;
+}
+
+#card:hover{
+  transform: translateY(-5px); 
+  cursor: pointer;
+ }
+ 
+ #card p{
+  color: #a3a5ae;
+  font-size: 16px;
+}
+
